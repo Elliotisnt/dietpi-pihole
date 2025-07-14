@@ -1,0 +1,7 @@
+# description
+[Unit]
+Description=Set RTC alarm for tomorrow 07:00
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c '/usr/sbin/rtcwake -m no -t $(date -d "tomorrow 07:00" +%%s)'
