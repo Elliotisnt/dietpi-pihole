@@ -1,0 +1,11 @@
+# description
+[Unit]
+Description=Re-arm RTC wake each boot
+
+[Timer]
+OnBootSec=2min
+AccuracySec=1s
+Persistent=true
+
+[Install]
+WantedBy=multi-user.target
