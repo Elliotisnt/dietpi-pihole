@@ -23,6 +23,6 @@ I removed my laptop's battery to avoid battery swelling and other possible risks
 
 ### Notes
 
-  - Pi-hole is built on dnsmasq but uses it's own fork called pihole-FTL
+  - Pi-hole is built on dnsmasq but uses its own fork called pihole-FTL
   - The RTC wake only works after AC power loss if the coin-cell battery is healthy
   - Place the two files from systemd/ into /etc/systemd/system/ and then run scripts/setup-rtcwake.sh to deploy and enable the timer
